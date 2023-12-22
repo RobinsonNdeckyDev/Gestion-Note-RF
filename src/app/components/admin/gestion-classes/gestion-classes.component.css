@@ -1,0 +1,25 @@
+.trait {
+    border: 1px solid #007DFE;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.nav-pills a {
+    cursor: pointer;
+}
+
+.titre {
+    color: #007DFE;
+}
+
+.btnClose {
+    color: #007DFE;
+}
+
+.fond-bleu{
+    background-color: #007DFE;
+}
+
+.btnAjt{
+    color: #007DFE;
+}

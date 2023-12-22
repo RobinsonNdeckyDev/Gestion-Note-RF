@@ -4,6 +4,10 @@
     margin: 0 auto;
 }
 
+.fond-bleu{
+    background-color: #007DFE;
+}
+
 .nav-pills a {
     cursor: pointer;
 }
@@ -14,5 +18,22 @@
 
 .btnClose {
     background-color: white;
+    color: #007DFE;
+}
+
+.listFmts {
+    font-weight: bold;
+}
+
+.titreFmt {
+    color: #007DFE;
+}
+
+.formajtFmt input,
+textarea {
+    color: #007DFE;
+}
+
+.btnAddFmt {
     color: #007DFE;
 }

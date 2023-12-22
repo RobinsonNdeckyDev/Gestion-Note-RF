@@ -1,26 +1,5 @@
 <div class="container-fluid">
     <div class="row">
-        <!-- <div class="col-12 col-md-2 p-0 sidebarContainer">
-            <div class="d-flex sidebar flex-column flex-shrink-0 p-2">
-                <a href="/" class="text-center fw-bold fs-4  text-white text-decoration-none">
-                    <span class="fs-4">Gestion Notes</span>
-                </a>
-                <hr>
-                <ul class="nav nav-pills flex-column mb-auto">
-                    <li [ngClass]="{'fond-bleu': boutonActif === 1}">
-                        <a class="nav-link text-white" (click)="changeNavItem('apprenants');boutonActif = 1">
-                            liste des apprenants
-                        </a>
-                    </li>
-                    <li [ngClass]="{'fond-bleu': boutonActif === 2}">
-                        <a class="nav-link text-white" (click)="changeNavItem('desactiver');boutonActif = 2">
-                            Apprenants désactivés
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div> -->
-
 
         <div class="bg-light my-2 px-3">
             <ul class="nav d-flex justify-content-between">
@@ -45,7 +24,7 @@
 
         <div class="col-12">
             <div class="listeApprenant" id="apprenants" *ngIf="selectedNavItem === 'apprenants'">
-                <h4 class="text-center fw-bold mt-2 titre">Liste Apprenants</h4>
+                <h4 class="text-center fw-bold mt-2 titreFmt">Liste Apprenants</h4>
                 <div class="trait"></div>
 
                 <!-- Button modal Ajout Apprenant -->
@@ -54,7 +33,7 @@
                     Ajouter un Apprenant
                 </button>
 
-                <div class="table-responsive overflow-y-scroll mt-2" style="height: 55vh;">
+                <div class="table-responsive overflow-y-scroll mt-2">
                     <table class="table align-items-center  p-2">
                         <thead class="sticky-top fond-bleu">
                             <tr class="">
@@ -92,11 +71,11 @@
             </div>
 
             <div class="listeApprenantDesactiver" id="desactiver" *ngIf="selectedNavItem === 'desactiver'">
-                <h4 class="text-center fw-bold mt-3 titre">Liste des apprenants Désactiver</h4>
-                <div class="trait"></div>
+                <h4 class="text-center fw-bold mt-3 titreFmt">Liste des apprenants Désactiver</h4>
+                <div class="trait mb-4"></div>
 
-                <div class="table-responsive overflow-y-scroll mt-2" style="height: 55vh;">
-                    <table class="table align-items-center  p-2">
+                <div class="table-responsive overflow-y-scroll p-2">
+                    <table class="table align-items-center p-2 table-dotted">
                         <thead class="sticky-top fond-bleu">
                             <tr class="">
                                 <th scope="col" class="fond-bleu text-white">Profil</th>
