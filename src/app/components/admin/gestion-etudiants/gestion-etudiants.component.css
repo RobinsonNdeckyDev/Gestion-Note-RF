@@ -1,0 +1,18 @@
+.trait {
+    border: 2px solid #007DFE;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.nav-pills a {
+    cursor: pointer;
+}
+
+.sidebarContainer {
+    background-color: #007DFE;
+}
+
+.btnClose {
+    background-color: white;
+    color: #007DFE;
+}

@@ -1,0 +1,76 @@
+.traitL {
+    border: 2px solid #007DFE;
+}
+
+.trait {
+    border: 2px solid #007DFE;
+    width: 20%;
+    margin: 0 auto;
+}
+
+
+.nav-pills a {
+    cursor: pointer;
+}
+
+.fond-bleu {
+    background-color: #007DFE !important;
+    color: white !important;
+}
+
+.btnAjt {
+    color: #007DFE !important;
+}
+
+.btnDet {
+    background-color: white;
+    color: #007DFE;
+}
+
+.titre {
+    color: #007DFE;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.btnTitre {
+    color: #007DFE;
+}
+
+.sidebarContainer {
+    background-color: #007DFE;
+}
+
+.sidebarContainer .btnTitre {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.listFmts{
+    color: white;
+    font-weight: bold;
+}
+
+.titreFmt{
+    color: #007DFE;
+}
+
+.formajtFmt input, textarea{
+    color: #007DFE;
+}
+
+.btnAddFmt{
+    color: #007DFE;
+}

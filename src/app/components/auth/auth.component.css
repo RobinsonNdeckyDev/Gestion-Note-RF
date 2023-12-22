@@ -1,0 +1,24 @@
+.trait {
+    border: 1px solid #F2D4CC;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.formulaireContainer {
+    background-color: #007DFE;
+    color: #FFF;
+}
+
+.btnLogin {
+    background-color: white;
+    color: #007DFE;
+    border: none;
+}
+
+.auth {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

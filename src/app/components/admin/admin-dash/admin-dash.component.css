@@ -1,0 +1,11 @@
+.fond-btn{
+    background-color: #007DFE;
+}
+
+.fond-btn .pc-mtext, .pc-micon{
+    color: white;
+}
+
+.pc-container{
+    background-color: rgba(245, 245, 245, 0.34);
+}
