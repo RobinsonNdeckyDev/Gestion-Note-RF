@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Classe } from 'src/app/models/classe';
+import { FormsModule } from '@angular/forms';
 import Swal from 'sweetalert2';
 
 @Component({

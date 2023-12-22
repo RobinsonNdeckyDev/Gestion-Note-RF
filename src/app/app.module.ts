@@ -20,6 +20,7 @@ import { NoteEtudiantComponent } from './components/etudiant/note-etudiant/note-
 import { DashMinComponent } from './components/admin/dash-min/dash-min.component';
 import { DashEtudComponent } from './components/etudiant/dash-etud/dash-etud.component';
 import { DashProfComponent } from './components/professeur/dash-prof/dash-prof.component';
+import { MonComposantComponent } from './components/mon-composant/mon-composant.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { DashProfComponent } from './components/professeur/dash-prof/dash-prof.c
     NoteEtudiantComponent,
     DashMinComponent,
     DashEtudComponent,
-    DashProfComponent
+    DashProfComponent,
+    MonComposantComponent
   ],
   imports: [
     BrowserModule,
